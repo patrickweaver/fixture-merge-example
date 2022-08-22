@@ -34,10 +34,36 @@ const fixtureA3 = {
     createdAt: new Date(),
 }
 
+const fixtureVL1 = {
+    name: 'FVL1',
+    type: 'square',
+    style: {
+        color: 'green',
+        border: 'none',
+        type: 'shape'
+    },
+    size: 499281,
+    createdAt: new Date(),
+}
+
+const fixtureVL2 = {
+    name: 'FVL2',
+    type: 'square',
+    style: {
+        color: 'green',
+        border: 'none',
+        type: 'shape'
+    },
+    size: 3392928,
+    createdAt: new Date(),
+}
+
 
 
 module.export = {
     fixtureA1,
     fixtureA2,
     fixtureA3,
+    fixtureVL1,
+    fixtureVL2,
 }
